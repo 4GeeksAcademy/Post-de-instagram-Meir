@@ -1,0 +1,112 @@
+body {
+  background-color: bisque;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.top {
+  width: 100%;
+  background-color: bisque;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top h1 {
+  margin-bottom: 0.5px;
+  font-size: 6em;
+}
+.top p {
+  margin-top: 0px;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+
+  gap: 40px;
+}
+
+.post1 {
+  background-color: white;
+  border-radius: 15px;
+
+  display: grid;
+  min-height: 10px;
+  grid-template-columns: 660px;
+  grid-template-rows: 60px auto minmax(120px, auto);
+}
+.titlePost1 {
+  display: flex;
+  justify-content: space-between;
+}
+.photoPost1 {
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+  overflow: hidden;
+  width: 660px;
+  height: auto;
+}
+.photoPost1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post2 {
+  background-color: white;
+  border-radius: 15px;
+
+  display: grid;
+  min-height: 10px;
+  grid-template-columns: 660px;
+  grid-template-rows: 60px auto minmax(120px, auto);
+}
+.titlePost2 {
+  display: flex;
+  justify-content: space-between;
+}
+.photoPost2 {
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+  overflow: hidden;
+  width: 660px;
+  height: auto;
+}
+.photoPost2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post3 {
+  background-color: white;
+  border-radius: 15px;
+
+  display: grid;
+  min-height: 10px;
+  grid-template-columns: 660px;
+  grid-template-rows: 60px auto minmax(120px, auto);
+}
+.titlePost3 {
+  display: flex;
+  justify-content: space-between;
+}
+.photoPost3 {
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+  overflow: hidden;
+  width: 660px;
+  height: auto;
+}
+.photoPost3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
